@@ -8,6 +8,10 @@ Based on [wonderfaill/pgbouncer](https://github.com/Wonderfall/dockerfiles/tree/
 
 This image is automatically built by [Drone](https://drone.angristan.xyz/angristan/docker-pgbouncer) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/pgbouncer/).
 
+## Build-time variables
+
+- **PGBOUNCER_VER**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.7.2-r4`)
+
 ## Environment variables
 
 - **GID** : user id *(default : 936)*
@@ -23,7 +27,7 @@ docker run -d \
   --mount type=bind,source="$(pwd)"/config,target=/etc/pgbouncer \
   -e UID=4242 \
   -e GID=4242 \
-  angristan/pgbouncer:latest
+  angristan/pgbouncer:1.7
 ```
 
 To get an example config:
