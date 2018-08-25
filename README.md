@@ -1,8 +1,10 @@
 # PgBouncer
 
-Minimal image for [PgBouncer](https://pgbouncer.github.io/).
+Minimal image for [PgBouncer](https://pgbouncer.github.io/), the PostgreSQL connection pooler.
 
 Based on [wonderfaill/pgbouncer](https://github.com/Wonderfall/dockerfiles/tree/master/pgbouncer)
+
+This image is automatically built by [Drone](https://drone.angristan.xyz/angristan/docker-pgbouncer) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/pgbouncer/).
 
 ## Environment variables
 
