@@ -1,5 +1,7 @@
 # PgBouncer
 
+![https://hub.docker.com/r/angristan/pgbouncer/](https://img.shields.io/microbadger/image-size/angristan/pgbouncer.svg?maxAge=3600&style=flat-square) ![https://hub.docker.com/r/angristan/pgbouncer/](https://img.shields.io/microbadger/layers/angristan/pgbouncer.svg?maxAge=3600&style=flat-square) ![https://hub.docker.com/r/angristan/pgbouncer/](https://img.shields.io/docker/pulls/angristan/pgbouncer.svg?maxAge=3600&style=flat-square) ![https://hub.docker.com/r/angristan/pgbouncer/](https://img.shields.io/docker/stars/angristan/pgbouncer.svg?maxAge=3600&style=flat-square)
+
 Minimal image for [PgBouncer](https://pgbouncer.github.io/), the PostgreSQL connection pooler.
 
 Based on [wonderfaill/pgbouncer](https://github.com/Wonderfall/dockerfiles/tree/master/pgbouncer)
