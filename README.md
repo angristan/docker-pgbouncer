@@ -10,12 +10,14 @@ This image is automatically built by [Drone](https://drone.angristan.xyz/angrist
 
 ## Build-time variables
 
-- **PGBOUNCER_VER**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.7.2-r4`)
+- **`PGBOUNCER_VER`**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.7.2-r4`)
 
 ## Environment variables
 
-- **GID** : user id *(default : 936)*
-- **UID** : group id *(default : 936)*
+The image will run as an unpriviliged user, which you can configure with:
+
+- **`GID`** : user id *(default : `936`)*
+- **`UID`** : group id *(default : `936`)*
 
 ## Usage
 
@@ -32,6 +34,6 @@ docker run -d \
 
 To get an example config:
 
-```docker
+```sh
 docker exec -i pgb cat /etc/pgbouncer/pgbouncer.ini > config/pgbouncer.ini
 ```
