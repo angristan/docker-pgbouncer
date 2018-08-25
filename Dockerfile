@@ -1,6 +1,7 @@
 FROM alpine:3.8
 
-LABEL maintainer="Angristan https://github.com/Angristan/dockerfiles"
+LABEL maintainer="angristan"
+LABEL source="https://github.com/angristan/docker-pgbouncer"
 
 ARG PGBOUNCER_VER=1.7.2-r4
 
