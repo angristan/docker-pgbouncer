@@ -16,8 +16,8 @@ This image is automatically built by [Drone](https://drone.angristan.xyz/angrist
 
 The image will run as an unpriviliged user, which you can configure with:
 
-- **`GID`** : user id *(default : `936`)*
-- **`UID`** : group id *(default : `936`)*
+- **`GID`**: user id *(default: `936`)*
+- **`UID`**: group id *(default: `936`)*
 
 ## Usage
 
