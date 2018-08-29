@@ -4,9 +4,9 @@
 
 Minimal image for [PgBouncer](https://pgbouncer.github.io/), the PostgreSQL connection pooler.
 
-Based on [wonderfaill/pgbouncer](https://github.com/Wonderfall/dockerfiles/tree/master/pgbouncer)
+This image is automatically built by [GitLab CI](https://gitlab.com/angristan/docker-pgbouncer/pipelines) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/pgbouncer/).
 
-This image is automatically built by [Drone](https://drone.angristan.xyz/angristan/docker-pgbouncer) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/pgbouncer/).
+Besides manual updates, the images are automatically rebuilt every week to make sure all softwares in the images are up-to-date.
 
 ## Build-time variables
 
