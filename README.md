@@ -10,7 +10,7 @@ Besides manual updates, the images are automatically rebuilt every week to make 
 
 ## Build-time variables
 
-- **`PGBOUNCER_VER`**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.7.2-r4`)
+- **`PGBOUNCER_VER`**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.9.0-r1`)
 
 ## Environment variables
 

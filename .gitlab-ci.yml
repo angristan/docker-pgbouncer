@@ -3,9 +3,9 @@ image: docker:stable
 variables:
   LATEST_VER: angristan/pgbouncer:latest
   MAJOR_VER: angristan/pgbouncer:1
-  MINOR_VER: angristan/pgbouncer:1.7
-  PATCH_VER: angristan/pgbouncer:1.7.2
-  REV_VER: angristan/pgbouncer:1.7.2-r4
+  MINOR_VER: angristan/pgbouncer:1.9
+  PATCH_VER: angristan/pgbouncer:1.9.0
+  REV_VER: angristan/pgbouncer:1.9.0-r1
 
 stages:
   - Build image
