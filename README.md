@@ -6,8 +6,6 @@ Minimal image for [PgBouncer](https://pgbouncer.github.io/), the PostgreSQL conn
 
 This image is automatically built by [GitLab CI](https://gitlab.com/angristan/docker-pgbouncer/pipelines) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/pgbouncer/).
 
-Besides manual updates, the images are automatically rebuilt every week to make sure all softwares in the images are up-to-date.
-
 ## Build-time variables
 
 - **`PGBOUNCER_VER`**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.7.2-r4`)
