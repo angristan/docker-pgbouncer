@@ -6,6 +6,8 @@ Minimal image for [PgBouncer](https://pgbouncer.github.io/), the PostgreSQL conn
 
 This image is automatically built by [GitLab CI](https://gitlab.com/angristan/docker-pgbouncer/pipelines) and pushed to the [Docker Hub](https://hub.docker.com/r/angristan/pgbouncer/).
 
+**I won't update this image anymore. Feel free to fork the repo.**
+
 ## Build-time variables
 
 - **`PGBOUNCER_VER`**: Version of the [Alpine package](https://pkgs.alpinelinux.org/package/v3.8/community/x86_64/pgbouncer) (`1.7.2-r4`)
